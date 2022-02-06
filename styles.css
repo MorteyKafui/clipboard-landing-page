@@ -139,3 +139,89 @@ a {
   max-width: 100%;
   margin-left: -5rem;
 }
+
+.workflow-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  max-width: 100%;
+}
+
+.workflow-boxes .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.workflow-boxes .box .text-md {
+  justify-self: start;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.workflow-boxes .box .box-img {
+  justify-self: start;
+  width: 20%;
+}
+
+.brands .grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 3rem;
+}
+
+.footer {
+  background-color: hsl(201, 11%, 66%, 0.2);
+  padding: 1rem;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: space-between;
+  align-items: center;
+  column-gap: 5rem;
+  row-gap: 1.5rem;
+}
+
+.footer-nav ul {
+  list-style: none;
+}
+
+.footer .footer-nav ul a {
+  color: hsl(210, 10%, 33%);
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.footer .logo {
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  cursor: pointer;
+}
+
+.footer .social-icons:hover {
+  opacity: 0.9;
+}
