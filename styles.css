@@ -252,6 +252,12 @@ a {
   body {
     overflow-x: hidden;
   }
+
+  .header {
+    background: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .header .flex {
     flex-direction: column;
     justify-content: center;
