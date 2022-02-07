@@ -44,6 +44,12 @@ a {
   margin-top: 10rem;
 }
 
+.header {
+  background: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .logo {
   cursor: pointer;
   width: 10%;
