@@ -108,6 +108,11 @@ a {
   box-shadow: inset 3px 6px 6px rgba(0, 0, 0, 0.07),
     inset 5px 10px 10px rgba(0, 0, 0, 0.06),
     inset 4px 8px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+btn:hover {
+  transform: translateY(-2px);
 }
 
 .btn-ios {
@@ -223,8 +228,8 @@ a {
   cursor: pointer;
 }
 
-.footer .social-icons:hover {
-  opacity: 0.9;
+.footer .social-icons img:hover {
+  opacity: 0.7;
 }
 
 @media (max-width: 34em) {
