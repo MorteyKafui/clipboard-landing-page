@@ -44,6 +44,7 @@ a {
 }
 
 .logo {
+  cursor: pointer;
   width: 10%;
 }
 
@@ -102,7 +103,6 @@ a {
   font-size: 2rem;
   font-weight: 500;
   border-radius: 50px;
-  flex: 2 0 30rem;
   color: #fff;
   border: 1px solid #fff;
   box-shadow: inset 3px 6px 6px rgba(0, 0, 0, 0.07),
@@ -125,6 +125,7 @@ a {
 .flex-row {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
 }
 
 .flex-col {
@@ -224,4 +225,139 @@ a {
 
 .footer .social-icons:hover {
   opacity: 0.9;
+}
+
+@media (max-width: 34em) {
+  body {
+    overflow-x: hidden;
+  }
+  .header .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btns {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .btn {
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+  .mt-5 {
+    margin-top: 2rem;
+  }
+
+  .heading-primary {
+    line-height: 1.1;
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .heading-secondary {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .heading-tertiary {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .text-md {
+    font-size: 1.3rem;
+  }
+
+  .track .text {
+    width: 100%;
+  }
+
+  .search .flex-row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-img {
+    margin: 0;
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .search .flex-col {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .search .text-md {
+    width: 100%;
+  }
+
+  .access .text {
+    width: 100%;
+  }
+
+  .access .access-img {
+    width: 70%;
+  }
+
+  .workflow .text {
+    width: 100%;
+  }
+
+  .workflow-boxes {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brands .grid {
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .brands .brand-img {
+    width: 30%;
+  }
+
+  .download .text {
+    width: 100%;
+  }
+
+  .footer {
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .footer .footer-nav ul {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer-nav ul a {
+    font-size: 1rem;
+  }
 }
